@@ -11,7 +11,7 @@ export class ProjectsService {
 
   constructor(private http: HttpClient) { }
 
-  getProjects(featured?: boolean): Observable<Project[]> {
+  getProjects(featured?: Boolean): Observable<Project[]> {
     let projects$ = this.http.get<Project[]>('assets/json/projects.json');
     
     if(featured) {
