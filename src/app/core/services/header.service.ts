@@ -18,6 +18,7 @@ export class HeaderService {
             return true;
           }
         }
+        return false;
       }),
       startWith(this.checkForHomeUrl(this.router.url))
     );
