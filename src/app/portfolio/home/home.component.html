@@ -3,8 +3,7 @@
         <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
             class="flex-column justify-content-center align-items-start w-75">
             <h1 [ngClass]="options.headingClass" class="text-left">Hello, 👋. My name is <span
-                    class="font-weight-bold">{{bio.firstName+'
-                    '+bio.lastName}}.</span></h1>
+                    class="font-weight-bold">{{bio.firstName+' '+bio.lastName}}.</span></h1>
             <div *ngFor="let par of bio.intro">
                 <h2 class="text-left" *ngIf="!options.useSmallerHeadings">{{par}}</h2>
                 <h5 class="text-left" *ngIf="options.useSmallerHeadings">{{par}}</h5>
