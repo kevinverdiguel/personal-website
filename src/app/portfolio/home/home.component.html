@@ -3,10 +3,14 @@
         <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
             class="flex-column justify-content-center align-items-start w-75">
             <h1 [ngClass]="options.headingClass" class="text-left">Hello, 👋. My name is <span
-                    class="font-weight-bold">{{bio.firstName+' '+bio.lastName}}.</span></h1>
+                    class="fw-bold FullName">{{bio.firstName+' '+bio.lastName}}.</span></h1>
+                    <br>
             <div *ngFor="let par of bio.intro">
                 <h2 class="text-left" *ngIf="!options.useSmallerHeadings">{{par}}</h2>
                 <h5 class="text-left" *ngIf="options.useSmallerHeadings">{{par}}</h5>
+            </div>
+            <div>
+                <img class="rounded foar" src="https://media.licdn.com/dms/image/D4E03AQEt-KuobPM7Hg/profile-displayphoto-shrink_800_800/0/1674579442668?e=1698278400&v=beta&t=I_yA-NglNWM8fddGtB_27m4SbqZaht2OTaUeZBnn1M8"/>
             </div>
             <button class="mt-3 mb-5 btn btn-outline-dark" routerLink="/" fragment="projects">
                 See My Work
