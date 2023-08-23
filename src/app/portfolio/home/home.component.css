@@ -1,7 +1,33 @@
-.min-vh-95{
+.min-vh-95 {
     height: 95vbh;
 }
 
-.FullName{
+.FullName {
     color: black;
+}
+
+.box_image {
+    width: 400px;
+    height: 400px;
+    margin: 100px 0 0 170px;
+    border: 7px solid #ffffff50;
+    float: left;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
+    animation: morph 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%);
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
 }
