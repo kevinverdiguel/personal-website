@@ -1,13 +1,13 @@
 {
     "firstName": "Kevin",
-    "lastName" : "Verdiguel",
+    "lastName": "Verdiguel",
     "intro": [
         "I'm a software engineer with a deep passion for mobile, desktop and web development. I am American, but I'm currently based in Mexico.",
         "My main focus is to improve the way people interact with technology, creating better experiences and helping to improve the future using software as my main tool.",
         "You can have a look at my work here."
     ],
     "about": [
-        "I’m a Mexican-American software engineering student with software development experience since high school. I studied at a technical high school due to my interest in software since a young age, and during High School I started to program in C++ and learning SQL. I felt in love with technology when I had my first smartphone in my teens, I became very passionate to modify the OS of my phone and investigating how OS and apps worked.",
+        "I’m a Mexican-American software engineering student with software development experience since high school. I studied at a technical high school due to my interest in software since a young age, and during High School I started to program in C++ and learning SQL. I fell in love with technology when I had my first smartphone in my teens, I became very passionate to modify the OS of my phone and investigating how OS and apps worked.",
         " I’m passionate about technology and software, I like to read about new stuff and I consider myself a very curious person, I also enjoy learn new things by myself. I consider myself a positive person, I enjoy meeting new people and getting to know different cultures. I’m very interested in learning languages, as I speak Spanish, English, and trying to learn Japanese, also I love discovering new stuff."
     ]
 }
