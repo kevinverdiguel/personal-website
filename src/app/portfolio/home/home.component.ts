@@ -10,7 +10,7 @@ export class HomeComponent {
   bio$ = this.bioService.getBio();
 
   respOptions = [
-    { viewClasses: 'd-none d-md-flex', headingClass: 'display-4', useSmallerHeadings: true },
+    { viewClasses: 'd-none d-md-flex', headingClass: 'display-5', useSmallerHeadings: true },
     { viewClasses: 'd-flex d-md-none', headingClass: '', useSmallerHeadings: true }
   ];
 

@@ -6,10 +6,12 @@ body {
 }
 
 body {
-    font-family: 'Oxygen', Arial, Verdana, Geneva, Tahoma, sans-serif;
-    background: #FAF9EF;
+    font-family: 'Nunito', Arial, Verdana, Geneva, Tahoma, sans-serif;
+    /*background: #3C6767;*/
+    background: #ffffff;
     background-image: radial-gradient(darkgray, 5.5%, transparent 0);
     background-size: 30px 30px;
+    /*color: aliceblue;*/
 }
 
 

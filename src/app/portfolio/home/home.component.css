@@ -9,12 +9,12 @@
 .box_image {
     width: 400px;
     height: 400px;
-    margin: 100px 0 0 170px;
+    margin: 0 0 0 100px;
     border: 7px solid #ffffff50;
-    float: left;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
     animation: morph 8s ease-in-out infinite;
+    float: right;
 }
 
 @keyframes morph {
@@ -38,8 +38,9 @@
     background-position: top -10px center;
     background-blend-mode: multiply;
     animation: morphTwo 8s ease-in-out infinite 1s;
-
+    float: right;
 }
+
 
 @keyframes morphTwo {
     0% {
@@ -53,4 +54,8 @@
     100% {
         border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
+}
+
+.about_intro{
+    text-align: right;
 }
