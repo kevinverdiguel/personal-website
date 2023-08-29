@@ -17,7 +17,7 @@
             "iconClasses": "fas fa-wifi"
         },
         "description": "A WPF program developed using C#, this was developed in order to convert and format an Excel file exported from SAI (a software to register invoices).",
-        "sourceUrl": "https://github.com",
+        "sourceUrl": "https://github.com/kevinverdiguel/Vencimientos-SAI",
         "previewUrl": "https://github.com",
         "featured": true
     },
@@ -54,5 +54,4 @@
         "previewUrl": "https://github.com",
         "featured": true
     }
-
 ]

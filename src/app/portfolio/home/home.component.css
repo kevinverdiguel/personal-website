@@ -3,7 +3,7 @@
 }
 
 .FullName {
-    color: black;
+    color: #415C62;
 }
 
 .box_image {
@@ -56,6 +56,11 @@
     }
 }
 
-.about_intro{
+.about_intro {
     text-align: right;
+}
+
+.text {
+    font-size: 25px;
+
 }
