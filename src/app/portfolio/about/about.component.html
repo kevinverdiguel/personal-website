@@ -3,7 +3,7 @@
         class="flex-column align-items-center text-center w-75">
         <h1 [ngClass]="options.headingclass" class="mb-5"><span class="fw-bold about">About</span> Me</h1>
         <div *ngFor="let par of bio.about">
-            <h4 *ngIf="!options.useSmallerHeadings" class="mb-4 fw-bold">{{par}}</h4>
+            <h4 *ngIf="!options.useSmallerHeadings" class="mb-4 fw-bold aboutMe">{{par}}</h4>
             <!--<h5 *ngIf="options.useSmallerHeadings" class="mb-4">{{par}}</h5>-->
         </div>
     </div>
