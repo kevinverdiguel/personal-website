@@ -8,11 +8,13 @@
                             class="fw-bold FullName">{{bio.firstName+' '+bio.lastName}}.</span></h1>
                 </div>
                 <br>
-                <div class="box_image box_image_2"></div>
+                <div>
+                <img src="../../../assets/images/softwaredveloper-removebg-preview.png" class="image"/>
                 <div *ngFor="let par of bio.intro">
                     <h2 class="text-left" *ngIf="!options.useSmallerHeadings">{{par}}</h2>
                     <h5 class="about_intro fw-bold text" *ngIf="options.useSmallerHeadings">{{par}}</h5>
                 </div>
+            </div>
                 <div class="row">
                     
                 </div>

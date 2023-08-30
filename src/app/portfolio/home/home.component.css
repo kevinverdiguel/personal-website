@@ -3,12 +3,13 @@
 }
 
 .FullName {
-    color: #415C62;
+    color: #385a64;
 }
 
 .social_list{
     list-style: none;
     margin-right: 100px;
+    margin-top: 20px;
 }
 
 a{
@@ -78,6 +79,10 @@ a{
 }
 
 .text {
-    font-size: 25px;
+    font-size: 23px;
+    margin-top: 5px;
+}
 
+.image{
+    float: right;
 }
