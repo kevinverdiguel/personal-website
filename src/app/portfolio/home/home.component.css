@@ -6,6 +6,23 @@
     color: #415C62;
 }
 
+.social_list{
+    list-style: none;
+    margin-right: 100px;
+}
+
+a{
+    color: inherit;
+    :hover{
+        color: darkgray;
+    }
+}
+
+.item_social{
+    display: inline-block;
+    margin-right: 20px;
+}
+
 .box_image {
     width: 400px;
     height: 400px;

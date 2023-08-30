@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BioService } from 'src/app/core/services/bio.service';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
