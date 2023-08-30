@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { BioService} from 'src/app/core/services/bio.service';
+import { BioService } from 'src/app/core/services/bio.service';
+
 
 @Component({
   selector: 'app-home',
@@ -10,7 +11,7 @@ export class HomeComponent {
   bio$ = this.bioService.getBio();
 
   respOptions = [
-    { viewClasses: 'd-none d-md-flex', headingClass: 'display-3', useSmallerHeadings: false },
+    { viewClasses: 'd-none d-md-flex', headingClass: 'display-5', useSmallerHeadings: true },
     { viewClasses: 'd-flex d-md-none', headingClass: '', useSmallerHeadings: true }
   ];
 

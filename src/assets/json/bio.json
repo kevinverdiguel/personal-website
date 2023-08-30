@@ -1,12 +1,13 @@
 {
     "firstName": "Kevin",
-    "lastName" : "Verdiguel",
+    "lastName": "Verdiguel",
     "intro": [
-        "I'm a software developer with a deep passion for mobile, desktop and web development. I am currently based in Mexico. My main focus is to improve the way people interact with technology, creating better experiences and helping to improve the future using programming as my main tool.",
-        "You can have a look at some of my work here."
+        "I'm a Software Engineer with a deep passion for mobile, desktop and web development. I am American, currently based in Mexico.",
+        "My main focus is to improve the way people interact with technology, creating better experiences and helping to improve the future using software as my main tool.",
+        "You can have a look at my work here."
     ],
     "about": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam auctor fringilla. Proin scelerisque lacinia nisl vel ultrices. Ut gravida finibus velit sit amet pulvinar. Nunc nisi arcu, pretium quis ultrices nec, volutpat sit amet nulla. Mauris semper elementum placerat. Aenean velit risus, aliquet quis lectus id, laoreet accumsan erat. Curabitur varius facilisis velit, et rutrum ligula mollis et. Sed imperdiet sit amet urna ut eleifend. Suspendisse consectetur velit nunc, at fermentum eros volutpat nec. Vivamus scelerisque nec turpis volutpat sagittis. Aenean eu sem et diam consequat euismod.",
-        "Mauris dolor tellus, sagittis vel pellentesque sit amet, viverra in enim. Maecenas non lectus eget augue convallis iaculis mattis malesuada nisl. Suspendisse malesuada purus et luctus scelerisque. Cras hendrerit, eros malesuada blandit scelerisque, nulla dui gravida arcu, nec maximus nunc felis sit amet mauris. Donec lorem elit, feugiat sit amet condimentum quis, consequat id diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras rutrum sodales condimentum. Aenean ultrices mi vel augue dapibus mattis. Donec ut ornare nisl. Curabitur feugiat pharetra dictum."
+        "I’m a Mexican-American software engineering student with software development experience since high school. I studied at a technical high school due to my interest in software since a young age, and during High School I started to program in C++ and learning SQL. I fell in love with technology when I had my first smartphone in my teens, I became very passionate to modify the OS of my phone and investigating how OS and apps worked.",
+        " I’m passionate about technology and software, I like to read about new stuff and I consider myself a very curious person, I also enjoy learn new things by myself. I consider myself a positive person, I enjoy meeting new people and getting to know different cultures. I’m very interested in learning languages, as I speak Spanish, English, and trying to learn Japanese, also I love discovering new stuff."
     ]
 }

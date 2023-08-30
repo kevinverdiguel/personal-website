@@ -11,13 +11,13 @@
         "featured": false
     },
     {
-        "name": "Soduko",
+        "name": "Vencimientos - SAI",
         "stack": {
-            "name": "Angular",
-            "iconClasses": "fab fa-angular"
+            "name": ".NET - C# - WPF",
+            "iconClasses": "fas fa-wifi"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "sourceUrl": "https://github.com",
+        "description": "A WPF program developed using C#, this was developed in order to convert and format an Excel file exported from SAI (a software to register invoices).",
+        "sourceUrl": "https://github.com/kevinverdiguel/Vencimientos-SAI",
         "previewUrl": "https://github.com",
         "featured": true
     },
@@ -54,5 +54,4 @@
         "previewUrl": "https://github.com",
         "featured": true
     }
-
 ]
