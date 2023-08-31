@@ -10,6 +10,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,

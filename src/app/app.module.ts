@@ -7,13 +7,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CoreModule } from './core/core.module';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faFilm } from '@fortawesome/free-solid-svg-icons';
-import { FooterComponent } from './footer/footer.component'
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
   ],
   imports: [
     BrowserModule,

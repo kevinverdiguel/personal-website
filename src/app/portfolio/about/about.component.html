@@ -1,6 +1,6 @@
 <div class="d-flex justify-content-center vw-90 mx-auto" *ngIf="bio$ | async as bio">
     <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
-        class="flex-column align-items-center text-center w-75" data-aos="fade-right" data-aos-once="true"
+        class="flex-column align-items-center text-center w-75" data-aos="fade-up" data-aos-once="false"
         data-aos-duraion="500" data-aos-anchor-placement="top-center">
         <h1 [ngClass]="options.headingclass" class="mb-5"><span class="fw-bold about">About</span> Me</h1>
         <div>
