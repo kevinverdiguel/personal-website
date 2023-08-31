@@ -3,26 +3,32 @@
         <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
             class="flex-column justify-content-center align-items-start w-75">
             <div class="container">
-                <div class="row  text-center">
+                <div class="row  text-center" data-aos="fade-up" data-aos-duration="800">
                     <h1 [ngClass]="options.headingClass" class="text-left">Hello, 👋. My name is <span
                             class="fw-bold FullName">{{bio.firstName+' '+bio.lastName}}.</span></h1>
                 </div>
                 <br>
                 <div>
-                <img src="../../../assets/images/softwaredveloper-removebg-preview.png" class="image"/>
-                <div *ngFor="let par of bio.intro">
-                    <h2 class="text-left" *ngIf="!options.useSmallerHeadings">{{par}}</h2>
-                    <h5 class="about_intro fw-bold text" *ngIf="options.useSmallerHeadings">{{par}}</h5>
+                    <img src="../../../assets/images/softwaredveloper-removebg-preview.png" class="image"
+                        data-aos="fade-left" data-aos-duration="900" />
+                    <div *ngFor="let par of bio.intro">
+                        <h2 class="text-left" *ngIf="!options.useSmallerHeadings">{{par}}</h2>
+                        <h5 class="about_intro fw-bold text" *ngIf="options.useSmallerHeadings">{{par}}</h5>
+                    </div>
                 </div>
-            </div>
                 <div class="row">
-                    
+
                 </div>
-                <ul class="social_list about_intro">
-                    <li class="item_social"><a href="https://github.com/kevinverdiguel" target="_blank" class="icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;"><fa-icon [icon]="['fab', 'github']" size="2x"></fa-icon></a> </li>
-                    <li class="item_social"><a href="https://www.instagram.com/kevinverdiguel/" target="_blank" class="icon-link-hover"><fa-icon [icon]="['fab', 'instagram']" size="2x"></fa-icon></a></li>
-                    <li class="item_social"><a href="https://www.linkedin.com/in/kevin-verdiguel/" target="_blank" class="icon-link-hover"><fa-icon [icon]="['fab', 'linkedin']" size="2x"></fa-icon></a> </li>
-                    <li class="item_social"><a href="mailto: kevinvdflrs@gmail.com" target="_blank" class="icon-link-hover"><fa-icon [icon]="['fas', 'envelope']" size="2x"></fa-icon></a> </li>
+                <ul class="social_list about_intro" data-aos="fade-right" data-aos-duration="700">
+                    <li class="item_social"><a href="https://github.com/kevinverdiguel" target="_blank"
+                            class="icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;"><fa-icon
+                                [icon]="['fab', 'github']" size="2x"></fa-icon></a> </li>
+                    <li class="item_social"><a href="https://www.instagram.com/kevinverdiguel/" target="_blank"
+                            class="icon-link-hover"><fa-icon [icon]="['fab', 'instagram']" size="2x"></fa-icon></a></li>
+                    <li class="item_social"><a href="https://www.linkedin.com/in/kevin-verdiguel/" target="_blank"
+                            class="icon-link-hover"><fa-icon [icon]="['fab', 'linkedin']" size="2x"></fa-icon></a> </li>
+                    <li class="item_social"><a href="mailto: kevinvdflrs@gmail.com" target="_blank"
+                            class="icon-link-hover"><fa-icon [icon]="['fas', 'envelope']" size="2x"></fa-icon></a> </li>
                 </ul>
                 <!--<img class=" rounded-circle"
                 src="https://media.licdn.com/dms/image/D4E03AQEt-KuobPM7Hg/profile-displayphoto-shrink_800_800/0/1674579442668?e=1698278400&v=beta&t=I_yA-NglNWM8fddGtB_27m4SbqZaht2OTaUeZBnn1M8" />
@@ -41,4 +47,8 @@
 
     <div class="d-none d-md-block mt-5"></div>
     <app-projects id="projects" class="mb-5"></app-projects>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </div>

@@ -9,11 +9,13 @@ import { BioService } from 'src/app/core/services/bio.service';
 export class AboutComponent {
   bio$ = this.bioService.getBio();
   respOptions = [
-    {viewClasses: 'd-none d-md-flex', headingclass: 'display-3', useSmallerHeadings: false},
+    { viewClasses: 'd-none d-md-flex', headingclass: 'display-3', useSmallerHeadings: false },
     //{viewClasses: 'd-none d-md-flex', headingclass: 'display-3', useSmallerHeadings: true},
 
   ]
 
-  constructor(private bioService: BioService){}
+  constructor(private bioService: BioService) {
+
+  }
 
 }
