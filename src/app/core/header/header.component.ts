@@ -15,7 +15,6 @@ export class HeaderComponent {
     { title: 'Home', homePath: '/', fragment: '/', pagePath: '/' },
     { title: 'My Projects', homePath: '/', fragment: 'projects', pagePath: '/projects' },
     { title: 'About Me', homePath: '/', fragment: 'about', pagePath: '/about' },
-
     //{title: 'My Blog', homePath: '/blog', fragment: '', pagePath: '/blog' }
   ];
 

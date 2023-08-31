@@ -1,13 +1,18 @@
 <div class="d-flex justify-content-center vw-90 mx-auto" *ngIf="bio$ | async as bio">
     <div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
-        class="flex-column align-items-center text-center w-75">
+        class="flex-column align-items-center text-center w-75" data-aos="fade-up" data-aos-once="false"
+        data-aos-duraion="500" data-aos-anchor-placement="top-center">
         <h1 [ngClass]="options.headingclass" class="mb-5"><span class="fw-bold about">About</span> Me</h1>
         <div>
             <div class="box_image box_image_2"></div>
-        <div *ngFor="let par of bio.about">
-            <h4 *ngIf="!options.useSmallerHeadings" class="mb-4 fw-bold aboutMe">{{par}}</h4>
-            <!--<h5 *ngIf="options.useSmallerHeadings" class="mb-4">{{par}}</h5>-->
-        </div>
+            <div *ngFor="let par of bio.about">
+                <h4 *ngIf="!options.useSmallerHeadings" class="mb-4 fw-bold aboutMe">{{par}}</h4>
+                <!--<h5 *ngIf="options.useSmallerHeadings" class="mb-4">{{par}}</h5>-->
+            </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </div>
