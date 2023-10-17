@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  respOptions = [
+    { viewClasses: 'd-none d-md-flex', headingclass: 'display-3', useSmallerHeadings: false },
+    //{viewClasses: 'd-none d-md-flex', headingclass: 'display-3', useSmallerHeadings: true},
+
+  ]
 }
