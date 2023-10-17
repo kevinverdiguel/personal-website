@@ -1,16 +1,5 @@
 [
     {
-        "name": "",
-        "stack": {
-            "name": "Vue.js",
-            "iconClasses": "fab fa-vuejs"
-        },
-        "description": "",
-        "sourceUrl": "",
-        "previewUrl": "",
-        "featured": false
-    },
-    {
         "name": "Vencimientos - SAI",
         "stack": {
             "name": ".NET - C# - WPF",
@@ -22,35 +11,46 @@
         "featured": true
     },
     {
-        "name": "E-commerce Store",
+        "name": "Flappy Bird Game Clone",
         "stack": {
-            "name": "React",
+            "name": "C# - Unity",
             "iconClasses": "fab fa-react"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "sourceUrl": "https://github.com",
+        "description": "A FlappyBird clone game made with Unity, implementing a score and physics just like the original game.",
+        "sourceUrl": "https://github.com/kevinverdiguel/FlappyBirdClone",
         "previewUrl": "https://github.com",
-        "featured": true
+        "featured": false
     },
     {
-        "name": "Algorithm Visualization App",
+        "name": "Quote it!",
         "stack": {
-            "name": "Angular",
+            "name": "Kotlin - Android Studio",
             "iconClasses": "fab fa-angular"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "sourceUrl": "https://github.com",
+        "description": "Quotes application using Kotlin that allows to share your own Quotes to show them to your followers.",
+        "sourceUrl": "https://github.com/kevinverdiguel/quote-it",
         "previewUrl": "https://github.com",
         "featured": true
     },
     {
-        "name": "Time Tracking CLI App",
+        "name": "Device Control System",
         "stack": {
-            "name": "Node.js",
-            "iconClasses": "fab fa-node-js"
+            "name": "C# - .NET - SQL",
+            "iconClasses": "fab fa-react"
         },
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "sourceUrl": "https://github.com",
+        "description": "A device control system for an enterprise, that shows the whole computers and electronical devices, and who is the person using them, the condition of the device and past owners.",
+        "sourceUrl": "https://github.com/kevinverdiguel/ControlDeRecursosTecnologicosKoinox",
+        "previewUrl": "https://github.com",
+        "featured": true
+    },
+    {
+        "name": "AI Player Space Invaders",
+        "stack": {
+            "name": "Python - TensorFlow",
+            "iconClasses": "fab fa-react"
+        },
+        "description": "An AI developed using Python and TensorFlow to make it learn how to play Space Invaders, trying to get the highest score.",
+        "sourceUrl": "https://colab.research.google.com/drive/1WCBIN4CmF_HQfwP8Ts5nRntcU_mN_PHd?usp=sharing#scrollTo=g0rZzhv6oDxE",
         "previewUrl": "https://github.com",
         "featured": true
     }
