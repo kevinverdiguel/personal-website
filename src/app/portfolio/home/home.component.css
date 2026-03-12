@@ -1,89 +1,90 @@
 .min-vh-95 {
-    height: 95vbh;
+  height: 95vbh;
 }
 
 .FullName {
-    color: #385a64;
+  color: #98bbc5;
 }
 
-.social_list{
-    list-style: none;
-    margin-right: 100px;
-    margin-top: 20px;
+.social_list {
+  list-style: none;
+  margin-right: 100px;
+  margin-top: 20px;
 }
 
-a{
-    color: inherit;
-    :hover{
-        color: darkgray;
-    }
+a {
+  color: inherit;
+  :hover {
+    color: darkgray;
+  }
 }
 
-.item_social{
-    display: inline-block;
-    margin-right: 20px;
+.item_social {
+  display: inline-block;
+  margin-right: 20px;
+  color: #98bbc5;
 }
 
 .box_image {
-    width: 400px;
-    height: 400px;
-    margin: 0 0 0 100px;
-    border: 7px solid #ffffff50;
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
-    animation: morph 8s ease-in-out infinite;
-    float: right;
+  width: 400px;
+  height: 400px;
+  margin: 0 0 0 100px;
+  border: 7px solid #ffffff50;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  background-image: linear-gradient(45deg, #08aeea, #2af598 100%);
+  animation: morph 8s ease-in-out infinite;
+  float: right;
 }
 
 @keyframes morph {
-    0% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
 
-    50% {
-        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-        background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%);
-    }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%);
+  }
 
-    100% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
 }
 
 .box_image_2 {
-    background: #08aeea50 url(../../../assets/images/IMG_2718_cropped.jpeg) no-repeat;
-    background-size: cover;
-    background-position: top -10px center;
-    background-blend-mode: multiply;
-    animation: morphTwo 8s ease-in-out infinite 1s;
-    float: right;
+  background: #08aeea50 url(../../../assets/images/IMG_2718_cropped.jpeg)
+    no-repeat;
+  background-size: cover;
+  background-position: top -10px center;
+  background-blend-mode: multiply;
+  animation: morphTwo 8s ease-in-out infinite 1s;
+  float: right;
 }
 
-
 @keyframes morphTwo {
-    0% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
 
-    50% {
-        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
 
-    100% {
-        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
 }
 
 .about_intro {
-    text-align: right;
+  text-align: right;
 }
 
 .text {
-    font-size: 23px;
-    margin-top: 5px;
+  font-size: 23px;
+  margin-top: 5px;
 }
 
-.image{
-    float: right;
-    position: center;
+.image {
+  float: right;
+  position: center;
 }

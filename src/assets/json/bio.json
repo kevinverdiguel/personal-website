@@ -1,13 +1,14 @@
 {
-    "firstName": "Kevin",
-    "lastName": "Verdiguel",
-    "intro": [
-        "I'm a Software Engineer with a deep passion for mobile, desktop and web development. I am American, currently based in Mexico.",
-        "My main focus is to improve the way people interact with technology, creating better experiences and helping to improve the future using software as my main tool.",
-        "You can have a look at my work here."
-    ],
-    "about": [
-        "I’m a Mexican-American software engineering student with software development experience since high school. I studied at a technical high school due to my interest in software since a young age, and during High School I started to program in C++ and learning SQL. I fell in love with technology when I had my first smartphone in my teens, I became very passionate to modify the OS of my phone and investigating how OS and apps worked.",
-        " I’m passionate about technology and software, I like to read about new stuff and I consider myself a very curious person, I also enjoy learn new things by myself. I consider myself a positive person, I enjoy meeting new people and getting to know different cultures. I’m very interested in learning languages, as I speak Spanish, English, and trying to learn Japanese, also I love discovering new stuff."
-    ]
+  "firstName": "Kevin",
+  "lastName": "Verdiguel",
+  "intro": [
+    "I'm a Software Engineer with a deep passion for mobile, desktop and web development. I am American, currently based in Mexico.",
+    "My main focus is to improve the way people interact with technology, creating better experiences and helping to improve the future using software as my main tool.",
+    "You can have a look at my work here."
+  ],
+  "about": [
+    "I’m a Mexican-American full-stack software engineer with 3+ years of experience building production web and mobile software. I work primarily with C#/.NET, React, and modern web technologies, and I enjoy building scalable systems, APIs, and data-driven applications.",
+    "My interest in technology started early through experimenting with smartphones and operating systems, which led me to attend a technical high school where I first learned C++ and SQL. That curiosity eventually turned into a career in software development.",
+    "Today I focus on building reliable systems that solve real-world problems, and I’m always interested in learning new technologies when a problem requires it."
+  ]
 }

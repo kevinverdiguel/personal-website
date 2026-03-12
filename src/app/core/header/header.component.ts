@@ -5,7 +5,7 @@ import { HeaderService } from '../services/header.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
   bio$ = this.bioService.getBio();
@@ -13,10 +13,17 @@ export class HeaderComponent {
 
   menuItems = [
     { title: 'Home', homePath: '/', fragment: '/', pagePath: '/' },
-    { title: 'My Projects', homePath: '/', fragment: 'projects', pagePath: '/projects' },
+    {
+      title: 'My Projects',
+      homePath: '/',
+      fragment: 'projects',
+      pagePath: '/projects',
+    },
     { title: 'About Me', homePath: '/', fragment: 'about', pagePath: '/about' },
-    //{title: 'My Blog', homePath: '/blog', fragment: '', pagePath: '/blog' }
   ];
 
-  constructor(private bioService: BioService, private headerService: HeaderService) { }
+  constructor(
+    private bioService: BioService,
+    private headerService: HeaderService,
+  ) {}
 }

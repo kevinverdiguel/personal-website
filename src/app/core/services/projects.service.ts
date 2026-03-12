@@ -13,8 +13,8 @@ export class ProjectsService {
 
   getProjects(featured?: Boolean): Observable<Project[]> {
     let projects$ = this.http.get<Project[]>('assets/json/projects.json');
-    
-    if(featured) {
+
+    if (featured) {
       return projects$.pipe(
         mergeAll(),
         filter(project => project.featured || false),
